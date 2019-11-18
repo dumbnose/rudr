@@ -19,13 +19,13 @@ We do not believe we are trying to solve the same problem as Knative.
 
 ## Can I use Open Application Model/Rudr to deploy existing applications?
 
-You can describe existing applications as Open Application Model applications. See our [migration guide](migrating.md).
+You can describe existing applications as Open Application Model applications. See our [migration guide](./how-to/migrating.md).
 
 ## How does this compare to Helm or Kompose?
 
 [Helm](https://helm.sh) is a package manager for Kubernetes, and provides a way to package and distribute Kubernetes applications.
 
-Open Application Model is just an application model that, thanks to Rudr, runs on Kubernetes. You can bundle your Open Application Model applications as Helm charts and deploy them using Helm.
+Open Application Model is just an application model that, thanks to Rudr, runs on Kubernetes. You can bundle your Open Application Model applications as Helm charts and deploy them using Helm. Here is an example of [how to do that](how-to/using_helm_kustomize_manage_oam.md).
 
 [Kompose](http://kompose.io/) is a tool for manipulating Kubernetes YAML documents. It is also compatible with Open Application Model/Rudr.
 
